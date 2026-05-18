@@ -19,7 +19,7 @@ public class US_01_Test02_ {
         MyFunc.wait(2);
 
         WebElement inputPassword = driver.findElement(By.xpath("//input[@id='password']"));
-        inputPassword.sendKeys("secret_sauc");
+        inputPassword.sendKeys("secret_");
         MyFunc.wait(2);
 
         WebElement clickLoginButton = driver.findElement(By.xpath("//input[@id='login-button']"));
