@@ -5,12 +5,7 @@ Bu layihə SauceDemo veb tətbiqi üçün avtomatlaşdırılmış UI testlərini
 Texnologiyalar
 Java
 Selenium WebDriver
-TestNG
-Maven
-Layihə Quruluşu
-src/
-├── main/
-└── test/
+
 Tələblər
 Java 8 və ya daha yeni versiya
 Maven
@@ -19,17 +14,15 @@ Quraşdırma
 
 Repository-ni klonlayın:
 
-git clone <repository-url>
+https://github.com/Ramil-04/SauceDemo_Test.git
 
 Layihə qovluğuna keçin:
 
 cd SauceDemo_Test
 
 Asılılıqları yükləyin:
-
-mvn clean install
-Testlərin İşə Salınması
-
+("org.seleniumhq.selenium:selenium-java:4.44.0")
+junit:junit:4.13.2
 Bütün testləri işə salmaq üçün:
 
 mvn test
